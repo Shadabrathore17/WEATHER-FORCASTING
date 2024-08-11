@@ -59,7 +59,7 @@
   <div class="not-found">
     <div class="box">
 
-        <video autoplay loop class = "background-clip">
+        <video autoplay loop class = "background-clip" id="vid">
             <source src = "video/background.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -70,6 +70,8 @@
     <p>&copy; Created by Shadab Rathore Using HTML, CSS and Javascript</p>
   </footer>
   
-    <script src="weather.js"></script>
+    <script src="weather.js">
+        document.getElementById('vid').play();
+    </script>
 </body>
 </html>
