@@ -138,3 +138,14 @@ search.addEventListener('click',() => {
     });
 
 });
+document.getElementById('today-forecast-btn').addEventListener('click', function() {
+    document.getElementById('forecast-container').style.display = 'block';
+    document.getElementById('forecast-content').innerHTML = "<p>Today's forecast loading...</p>";
+    // You can fetch today's forecast data here!
+});
+
+document.getElementById('five-day-forecast-btn').addEventListener('click', function() {
+    document.getElementById('forecast-container').style.display = 'block';
+    document.getElementById('forecast-content').innerHTML = "<p>5-Day forecast loading...</p>";
+    // You can fetch 5-day forecast data here!
+});
