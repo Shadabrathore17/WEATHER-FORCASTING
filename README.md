@@ -66,6 +66,8 @@ OpenWeatherMap API: To fetch weather and forecast data based on the user's city 
 Conclusion:
 This code is a simple but effective weather application that combines weather data, dynamic background changes, and a modern, clean interface to provide real-time weather information and a 5-day forecast for any city input by the user. It uses web technologies like HTML, CSS, JavaScript, and an external API to create a functional and visually appealing weather app.
 
+AND I ALSO MAKE A APPLICATION OF THIS WEBSITE WHICH CAN YOU FIND OUT FROM THIS DRIVE :https://drive.google.com/drive/folders/1-96hGf1OPbcoaU53PQpiIUftmEMtUHbC?usp=sharing
+
 
 
 
